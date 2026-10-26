@@ -1,0 +1,42 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Docker overrides (if they contain local settings)
+compose.override.yaml
+docker-compose.override.yml
+
+# Local certificates and private keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Build artifacts
+dist/
+build/
