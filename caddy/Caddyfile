@@ -1,0 +1,3 @@
+digitizedsham.ru {
+    reverse_proxy web:80
+}
